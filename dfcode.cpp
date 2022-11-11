@@ -11,6 +11,14 @@ using tiii=tuple<int,int,int>;
 
 int main(){
     MustGoFast;
-    
+
+    int n,temp;
+    cin>>n;
+    vector<int>vvv;
+    for(int i=0;i<n;i++){
+        cin>>temp;
+        vvv.push_back(temp);
+    }
+
     return 0;
 }
